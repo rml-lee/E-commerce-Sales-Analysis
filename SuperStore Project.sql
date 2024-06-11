@@ -1,9 +1,9 @@
 # SuperStore Project
 
-
 # Data Cleaning
 
 # Call Stored Procedure
+
 CALL clean_data();
 
 # -----------------------------------------------------------------------------------------------------
