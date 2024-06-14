@@ -6,6 +6,7 @@
 
 ## Table of Contents
 - [Superstore Dataset](#Superstore-Dataset)
+- [Data Schema](#Data-Schema)
 
 ## Superstore Dataset
 
