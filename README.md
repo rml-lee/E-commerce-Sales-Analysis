@@ -7,7 +7,7 @@
 ## Table of Contents
 - [Superstore Dataset](#Superstore-Dataset)
 
-## Sales Orders Table
+## Superstore Dataset
 
 | Field          | Description                                           |
 |----------------|-------------------------------------------------------|
