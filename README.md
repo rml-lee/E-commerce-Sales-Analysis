@@ -1,12 +1,16 @@
 # MYSQL-Tableau-SuperStore-Project
 
-# Briefing
+# Business Task
 
-# Data Dictionary
+
 
 ## Table of Contents
 - [Superstore Dataset](#Superstore-Dataset)
 - [Data Schema](#Data-Schema)
+
+# Data Source
+
+# Data Dictionary
 
 ## Superstore Dataset
 
@@ -36,4 +40,8 @@
 
 ## Data Schema
 <img src="https://github.com/rml-lee/MYSQL-Tableau-SuperStore-Project/assets/160198611/0d25e0dd-5a5f-4515-83eb-df617e8f8598" alt="Description" width="500"/>
+
+# Data Analysis
+
+# Summary/Findings
 
