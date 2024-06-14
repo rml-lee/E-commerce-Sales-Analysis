@@ -34,5 +34,5 @@
 | Profit         | Profit/Loss incurred                                  |
 
 ## Data Schema
-![sample_superstore schema](https://github.com/rml-lee/MYSQL-Tableau-SuperStore-Project/assets/160198611/0d25e0dd-5a5f-4515-83eb-df617e8f8598)
+<img src="https://github.com/rml-lee/MYSQL-Tableau-SuperStore-Project/assets/160198611/0d25e0dd-5a5f-4515-83eb-df617e8f8598" alt="Description" width="500"/>
 
