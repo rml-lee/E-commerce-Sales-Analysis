@@ -1,27 +1,5 @@
-# SuperStore Project
+# SuperStore Analysis
 
-# Data Cleaning
-
-# Call Stored Procedure
-
-CALL clean_data();
-
-# -----------------------------------------------------------------------------------------------------
-
-# Descriptive Statistics
-
--- What is the date range on this dataset?
-SELECT DISTINCT
-    YEAR(order_date) AS year
-FROM
-    sample_superstore
-ORDER BY 1 ASC;
--- Results: 2014 - 2017
-
-
-# ------------------------------------------------------------------------------------------------------
-
-# Exploratory Data Analysis
 
 -- 1. What is the order volume from each region?
 SELECT
