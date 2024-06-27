@@ -11,6 +11,7 @@ GROUP BY 1
 ORDER BY 2 DESC;
 
 
+
 -- 2. Which sub-categories are incurring a profit loss?
 SELECT
     sub_category,
@@ -19,6 +20,7 @@ FROM
     sample_superstore
 GROUP BY 1
 HAVING ROUND(SUM(profit), 2) < 0;
+
 
 
 -- 3. Based on the results from question #2, what are the top 5 products from those sub-categories that are incurring a profit loss?
@@ -56,21 +58,8 @@ ORDER BY COUNT(*) ASC
 LIMIT 1;
 
 
--- 5. What is the profit margin for each city?
-SELECT
-    YEAR(order_date) AS year,
-    country,
-    state,
-    city,
-    ROUND(SUM(profit) / SUM(sales), 3) AS profit_margin
-FROM
-    sample_superstore
-GROUP BY 1, 2, 3, 4
-ORDER BY 1 ASC;
 
-
-
--- 6. What is the monthly gross margin percentage in 2016 for each category?
+-- 5. What is the monthly gross margin percentage in 2016 for each category?
 SELECT
     MONTH(order_date) AS month,
     category,
@@ -84,6 +73,20 @@ FROM
     WHERE
         YEAR(order_date) = 2016) t
 GROUP BY 1, 2
+ORDER BY 1 ASC;
+
+
+
+-- 6. What is the profit margin for each city?
+SELECT
+    YEAR(order_date) AS year,
+    country,
+    state,
+    city,
+    ROUND(SUM(profit) / SUM(sales), 3) AS profit_margin
+FROM
+    sample_superstore
+GROUP BY 1, 2, 3, 4
 ORDER BY 1 ASC;
 
 
