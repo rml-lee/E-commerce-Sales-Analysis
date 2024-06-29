@@ -1,8 +1,9 @@
 # Summary/Findings
 
+## 5. What is the monthly gross margin percentage in 2016 for each category?
+
 Tableau - [Link](https://public.tableau.com/shared/57C4W3T5M?:display_count=n&:origin=viz_share_link)
 
-## 5. What is the monthly gross margin percentage in 2016 for each category?
 ![Line Graph](https://github.com/rml-lee/MYSQL-Tableau-SuperStore-Project/assets/160198611/cc410ff9-977f-4fc5-b631-7e808fe4f0f6)
 
 - The furniture department has earned a negative gross margin percentage four times throughout 2016. This is likely due to the pricing strategies implemented within this department.
