@@ -29,3 +29,8 @@ Tableau - [Link](https://public.tableau.com/views/Workbook4_SuperStoreProject/Ma
 - Recommendations: Examine the cities of those specific locations to determine if any products being sold are incurring a profit loss.
 - Investigate the operational costs at those locations. 
 - Consider closing those locations if they continue to incur a profit loss.
+
+## What is the correlation between profit and sales? Are we receiving profit losses from any products?
+
+Tableau - [Link](https://public.tableau.com/shared/QHYX4N94G?:display_count=n&:origin=viz_share_link)
+
