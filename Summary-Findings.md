@@ -34,3 +34,5 @@ Tableau - [Link](https://public.tableau.com/views/Workbook4_SuperStoreProject/Ma
 
 Tableau - [Link](https://public.tableau.com/shared/QHYX4N94G?:display_count=n&:origin=viz_share_link)
 
+![Scatter Plot](https://github.com/rml-lee/MYSQL-Tableau-SuperStore-Project/assets/160198611/833756f1-7ed3-41ea-9242-c781999e2e0c)
+
