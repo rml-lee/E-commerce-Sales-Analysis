@@ -27,7 +27,9 @@ Tableau - [Link](https://public.tableau.com/views/Workbook4_SuperStoreProject/Ma
 - Arizona, California, Colorado, Florida, Illinois, Massachusetts, North Carolina, Ohio, Oregon, Pennsylvania, Tennessee, Texas, and Maryland all have locations that aren’t generating a profit. This tends to be the case consistently year over year.
 
 - Recommendations: Examine the cities of those specific locations to determine if any products being sold are incurring a profit loss.
+
 - Investigate the operational costs at those locations. 
+
 - Consider closing those locations if they continue to incur a profit loss.
 
 ## What is the correlation between profit and sales? Are we receiving profit losses from any products?
@@ -35,3 +37,11 @@ Tableau - [Link](https://public.tableau.com/views/Workbook4_SuperStoreProject/Ma
 Tableau - [Link](https://public.tableau.com/shared/QHYX4N94G?:display_count=n&:origin=viz_share_link)
 
 ![Scatter Plot](https://github.com/rml-lee/MYSQL-Tableau-SuperStore-Project/assets/160198611/3660d849-e704-4ce1-be25-8f870b1a4fb2)
+
+- There is a negative correlation between sales and profit for the Cubify CubeX 3D Printer (Double Head Print) in the Technology category within the East region.
+
+- The negative correlation for this printer becomes stronger going from 2015 to 2016, generating a higher profit loss.
+
+- Items that are the most negatively correlated are coming from Furniture and Technology.
+
+- Recommendation: Refer to scatter plot for profit loss region locations. Look into product returns and/or overhead in those regions for products generating a profit loss.
