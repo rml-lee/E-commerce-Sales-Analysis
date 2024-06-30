@@ -69,7 +69,9 @@ Tools used:
 | ----- |
 | <img src="https://github.com/rml-lee/MYSQL-Tableau-Video-Games-Project/assets/160198611/a1f80d2c-f675-4c97-b497-f21377fd0042" width="55" height="55"/> |
 
-The provided SQL script contains a set of questions with queries used to gather insight about this dataset using MySQL. You can access the SQL file [here](https://github.com/rml-lee/MYSQL-Tableau-SuperStore-Project/blob/main/SuperStore%20Project.sql).
+The provided SQL script contains a set of questions with queries used to gather insight about this dataset using MySQL. 
+
+You can access the SQL file [here](https://github.com/rml-lee/MYSQL-Tableau-SuperStore-Project/blob/main/SuperStore%20Project.sql).
 
 # Analysis/Findings
 
@@ -80,4 +82,4 @@ Tools used:
 
 To conclude, I've provided an analysis of the results from a few of the questions provided within the SQL file. This section will also include visuals for our data and discussing the implications and potential impact on the business or research problem at hand. The goal is to provide a thorough and actionable understanding of the data, guiding informed decision-making.
 
-You can review the results [here](https://github.com/rml-lee/MYSQL-Tableau-SuperStore-Project/blob/main/Summary-Findings.md)
+You can review the results [here](https://github.com/rml-lee/MYSQL-Tableau-SuperStore-Project/blob/main/Summary-Findings.md).
