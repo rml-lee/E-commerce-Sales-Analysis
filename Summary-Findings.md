@@ -32,13 +32,13 @@ Tableau - [Link](https://public.tableau.com/views/Workbook4_SuperStoreProject/Ma
 
 - Consider closing those locations if they continue to incur a profit loss.
 
-## What is the correlation between profit and sales? Are we receiving profit losses from any products?
+## What is the correlation between profit and sales? Are we receiving a profit loss from any particular product?
 
 Tableau - [Link](https://public.tableau.com/shared/QHYX4N94G?:display_count=n&:origin=viz_share_link)
 
 ![Scatter Plot](https://github.com/rml-lee/MYSQL-Tableau-SuperStore-Project/assets/160198611/3660d849-e704-4ce1-be25-8f870b1a4fb2)
 
-- There is a negative correlation between sales and profit for the Cubify CubeX 3D Printer (Double Head Print) in the Technology category within the East region.
+- There is a negative correlation between sales and profit for the "Cubify CubeX 3D Printer (Double Head Print)" in the Technology category within the East region.
 
 - The negative correlation for this printer becomes stronger going from 2015 to 2016, generating a higher profit loss.
 
