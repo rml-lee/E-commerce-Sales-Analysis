@@ -1,7 +1,7 @@
 # MYSQL-Tableau-SuperStore-Project
 
 # Business Task
-
+The goal of this project is to gather actionable insights and identify trends from the provided superstore dataset.
 
 ## Table of Contents
 - [Data Source](#data-source)
