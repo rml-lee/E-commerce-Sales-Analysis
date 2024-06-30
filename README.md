@@ -6,7 +6,7 @@
 ## Table of Contents
 - [Data Source](#data-source)
 - [Data Dictionary](#data-dictionary)
-- [Data Cleaning](#data-cleaning)
+- [Data Cleaning & Exploration](#data-cleaning--exploration)
 - [Data Schema](#data-schema)
 - [Data Transformation](#data-transformation)
 - [Analysis/Findings](#analysisfindings)
