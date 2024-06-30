@@ -59,7 +59,7 @@ You can access the Jupyter Notebook file [here](https://github.com/rml-lee/MYSQL
 ## Data Schema
 After cleaning the data, this is our schema that will be used throughout this project.
 
-<img src="https://github.com/rml-lee/MYSQL-Tableau-SuperStore-Project/assets/160198611/0d25e0dd-5a5f-4515-83eb-df617e8f8598" alt="Description" width="500"/>
+<img src="https://github.com/rml-lee/MYSQL-Tableau-SuperStore-Project/assets/160198611/0d25e0dd-5a5f-4515-83eb-df617e8f8598" alt="Description" width="450"/>
 
 
 # Data Transformation
