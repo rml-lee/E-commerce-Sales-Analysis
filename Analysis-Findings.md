@@ -1,4 +1,4 @@
-# Summary/Findings
+# Analysis/Findings
 
 ## 5. What is the monthly gross margin percentage in 2016 for each category?
 
