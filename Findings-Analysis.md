@@ -44,4 +44,6 @@ Tableau - [Link](https://public.tableau.com/shared/QHYX4N94G?:display_count=n&:o
 
 - Items that are the most negatively correlated are coming from Furniture and Technology.
 
-- Recommendation: Refer to scatter plot for region locations of profit loss. Look into product returns and/or overhead in those regions for products generating a profit loss.
+- Recommendation: Refer to the Tableau link above for more details on which products are experiencing profit loss and the regions they are located in.
+
+- Look into product returns and/or overhead in those regions for products generating a profit loss.
