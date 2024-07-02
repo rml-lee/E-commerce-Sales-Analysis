@@ -11,7 +11,7 @@ The goal of this project is to gather actionable insights and identify trends fr
 - [Data Cleaning & Exploration](#data-cleaning--exploration)
 - [Data Schema](#data-schema)
 - [Data Transformation](#data-transformation)
-- [Analysis/Findings](#analysisfindings)
+- [Analysis & Findings](#analysis--findings)
 
 # Data Source
 Superstore Dataset - [Kaggle](https://www.kaggle.com/datasets/vivek468/superstore-dataset-final)
@@ -75,7 +75,7 @@ The provided SQL script contains a set of questions with queries used to gather 
 
 You can access the SQL file [here](https://github.com/rml-lee/MYSQL-Tableau-SuperStore-Project/blob/main/SuperStore%20Project.sql).
 
-# Analysis/Findings
+# Analysis & Findings
 
 Tools used:
 | Tableau |
