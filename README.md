@@ -75,7 +75,7 @@ The provided SQL script contains a set of questions with queries used to gather 
 
 You can access the SQL file [here](https://github.com/rml-lee/MYSQL-Tableau-SuperStore-Project/blob/main/SuperStore%20Project.sql).
 
-# Analysis & Findings
+# Findings & Analysis
 
 Tools used:
 | Tableau |
