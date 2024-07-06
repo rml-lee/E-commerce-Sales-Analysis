@@ -126,8 +126,8 @@ SELECT DISTINCT
 FROM
     q2_2017_data t1
     JOIN q2_2017_data t2
-    ON t2.order_id <> t1.order_id
-    AND t2.customer_id = t1.customer_id
+    ON t1.customer_id = t2.customer_id
+    AND t1.order_id <> t2.order_id
 WHERE
     DATEDIFF(t2.order_date, t1.order_date) BETWEEN 0 AND 7;
 
