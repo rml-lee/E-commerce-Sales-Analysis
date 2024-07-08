@@ -4,7 +4,8 @@
 
 Tableau - [Link](https://public.tableau.com/views/Workbook4_SuperStoreProject/LineGraph?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
 
-![Line Graph](https://public.tableau.com/views/Workbook4_SuperStoreProject/LineGraph?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
+![Line Graph](https://github.com/rml-lee/E-commerce-Sales-Analysis/assets/160198611/c8d9ba81-d119-44c8-8e84-8604e2ec9fa1)
+
 
 - Furniture: This department has earned a negative gross margin percentage four times throughout 2016. This is likely due to the pricing strategies implemented within this department.
 
