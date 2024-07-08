@@ -2,7 +2,7 @@
 
 ## 5. What is the monthly gross margin percentage in 2016 for each category?
 
-Tableau - [Link](https://public.tableau.com/shared/57C4W3T5M?:display_count=n&:origin=viz_share_link)
+Tableau - [Link](https://public.tableau.com/views/Workbook4_SuperStoreProject/LineGraph?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
 
 ![Line Graph](https://public.tableau.com/views/Workbook4_SuperStoreProject/LineGraph?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
 
