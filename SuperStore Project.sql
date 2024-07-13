@@ -129,7 +129,7 @@ FROM
     ON t1.customer_id = t2.customer_id
     AND t1.order_id <> t2.order_id
 WHERE
-    DATEDIFF(t2.order_date, t1.order_date) BETWEEN 0 AND 7;
+    ABS(DATEDIFF(t2.order_date, t1.order_date)) <= 7;
 
 
 
