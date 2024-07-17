@@ -39,12 +39,12 @@ Tableau - [Link](https://public.tableau.com/shared/QHYX4N94G?:display_count=n&:o
 
 ![Scatter Plot](https://github.com/rml-lee/MYSQL-Tableau-SuperStore-Project/assets/160198611/3660d849-e704-4ce1-be25-8f870b1a4fb2)
 
-- There is a negative correlation between sales and profit for the "Cubify CubeX 3D Printer (Double Head Print)" in the Technology category within the East region.
+- There is a **negative correlation** between sales and profit for the **Cubify CubeX 3D Printer (Double Head Print)** in the **Technology** category within the **East** region.
 
-- The negative correlation for this printer becomes stronger going from 2015 to 2016, generating a higher profit loss.
+- The **negative correlation** for this printer becomes stronger going from 2015 to 2016, generating a higher profit loss.
 
-- Items that are the most negatively correlated are coming from Furniture and Technology.
+- Items that are the most negatively correlated are coming from **Furniture** and **Technology**.
 
-- **Recommendations**: Refer to the Tableau link above for more details on which products are experiencing profit loss and the regions they are located in.
+- **Recommendations**: Refer to the Tableau link above for more details on which specific products are experiencing a profit loss and the regions they are located in.
 
 - Look into product returns and/or overhead in those regions for products generating a profit loss.
