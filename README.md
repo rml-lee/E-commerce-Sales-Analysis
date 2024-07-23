@@ -82,6 +82,6 @@ Tools used:
 | ------- |
 | <img src="https://github.com/rml-lee/MYSQL-Tableau-Video-Games-Project/assets/160198611/fb9f12dc-8640-4197-b3f6-ab0ce2241bc1" width="55" height="55"/> |
 
-To conclude, I've provided an analysis of the results from a few of the questions provided within the SQL file. This section will also include visuals for our data and discussing the implications and potential impact on the business or research problem at hand. The goal is to provide a thorough and actionable understanding of the data, guiding informed decision-making.
+To conclude, I've provided an analysis of the results from a few of the questions provided within the SQL file. This section will include visuals of our data and discuss the implications and potential impact on the business or research problem at hand. The goal is to provide a thorough and actionable understanding of the data, guiding informed decision-making.
 
 You can review the results [here](https://github.com/rml-lee/MYSQL-Tableau-SuperStore-Project/blob/main/Findings-Analysis.md).
