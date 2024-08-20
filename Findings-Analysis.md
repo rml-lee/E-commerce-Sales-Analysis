@@ -43,7 +43,7 @@ Tableau - [Link](https://public.tableau.com/shared/QHYX4N94G?:display_count=n&:o
 
 - The **negative correlation** for this printer becomes stronger going from 2015 to 2016, generating a higher profit loss.
 
-- Items that are the most negatively correlated are coming from **Furniture** and **Technology**.
+- Items that are incurring the most profit loss (negative correlation) are coming from **Furniture** and **Technology**.
 
 - **Recommendations**: Refer to the Tableau link above for more details on which specific products are experiencing a profit loss and the regions they are located in.
 
