@@ -1,4 +1,8 @@
-# Findings & Analysis
+<h1 align="center">Findings & Analysis</h1>
+
+
+
+<p align="center">Note: Click the Tableau link above a chart to view a detailed, interactive version.</p> 
 
 ## 5. What is the monthly gross margin percentage in 2016 for each category?
 
