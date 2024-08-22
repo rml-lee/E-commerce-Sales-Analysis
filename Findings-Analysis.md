@@ -49,6 +49,4 @@ Tableau - [Link](https://public.tableau.com/shared/QHYX4N94G?:display_count=n&:o
 
 - Items incurring the most profit loss (i.e., most negatively correlated) come from **Furniture** and **Technology**.
 
-- **Recommendations**: Refer to the Tableau link above for more details on which specific products are experiencing a profit loss and the regions they are located in.
-
-- Look into product returns and/or overhead in those regions for products generating a profit loss.
+- **Recommendation**: Refer to the Tableau link above for more details on which specific products are experiencing a profit loss and the regions they are located in. Look into product returns and/or overhead in those regions for products generating a profit loss.
