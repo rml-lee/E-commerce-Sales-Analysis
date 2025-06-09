@@ -157,12 +157,9 @@ GROUP BY 1;
 
 
 -- 10. Customer Segmentation: Which customers purchased the same items within the sub-category (chairs) in 2016?
-SELECT DISTINCT
-    a.customer_id,
-    a.customer_name,
-    b.product_name,
-    b.total_customers
-FROM
+
+WITH chair_products AS
+    -- Get all chair products with their customers in 2016
     (SELECT
         product_id,
         product_name,
@@ -171,16 +168,27 @@ FROM
     FROM
         sample_superstore
     WHERE
-          sub_category = 'Chairs') a
-JOIN
+        sub_category = 'Chairs'
+        AND YEAR(order_date) = 2016),
+
+product_popularity AS
+    -- Calculate how many customers bought each chair product
     (SELECT
         product_id,
         product_name,
         COUNT(DISTINCT customer_id) AS total_customers
     FROM
-        sample_superstore
-    WHERE
-          sub_category = 'Chairs'
-    GROUP BY 1) b
-    ON b.product_id = a.product_id
-ORDER BY 4 DESC, 3 DESC;
+        chair_products
+    GROUP BY 1, 2)
+
+-- Get the final result with customer details and product popularity
+SELECT DISTINCT
+    cp.customer_id,
+    cp.customer_name,
+    pp.product_name,
+    pp.total_customers
+FROM
+    chair_products cp
+    JOIN product_popularity pp
+    ON cp.product_id = pp.product_id
+ORDER BY 4 DESC;
