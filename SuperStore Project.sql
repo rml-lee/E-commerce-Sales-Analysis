@@ -121,6 +121,7 @@ WITH q2_2017_data AS
              WHERE
                    YEAR(order_date) = 2017
                AND QUARTER(order_date) = 02)
+
 SELECT DISTINCT
     t1.customer_id
 FROM
