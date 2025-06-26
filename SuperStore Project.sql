@@ -113,14 +113,15 @@ HAVING COUNT(*) >= 5;
 
 
 -- 8. Which customers made a second order within 7 days of their previous order during the second quarter of 2017?
-WITH q2_2017_data AS
-            (SELECT
-                 *
-             FROM
-                 sample_superstore
-             WHERE
-                   YEAR(order_date) = 2017
-               AND QUARTER(order_date) = 02)
+WITH q2_2017_data AS (
+    SELECT
+        *
+    FROM
+        sample_superstore
+    WHERE
+        YEAR(order_date) = 2017
+    AND QUARTER(order_date) = 02
+)
 
 SELECT DISTINCT
     t1.customer_id
@@ -158,9 +159,9 @@ GROUP BY 1;
 
 -- 10. Customer Segmentation: Which customers purchased the same items within the sub-category (chairs) in 2016?
 
-WITH chair_products AS
+WITH chair_products AS (
     -- Get all chair products with their customers in 2016
-    (SELECT
+    SELECT
         product_id,
         product_name,
         customer_id,
@@ -169,17 +170,19 @@ WITH chair_products AS
         sample_superstore
     WHERE
         sub_category = 'Chairs'
-        AND YEAR(order_date) = 2016),
+        AND YEAR(order_date) = 2016
+),
 
-product_popularity AS
+product_popularity AS (
     -- Calculate how many customers bought each chair product
-    (SELECT
+    SELECT
         product_id,
         product_name,
         COUNT(DISTINCT customer_id) AS total_customers
     FROM
         chair_products
-    GROUP BY 1, 2)
+    GROUP BY 1, 2
+)
 
 -- Get the final result with customer details and product popularity
 SELECT DISTINCT
