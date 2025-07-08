@@ -3,8 +3,8 @@
 
 # -----------------------------------------------------------------------------------------------------------
 
--- Note: The calculated "Cost of Goods Sold" (COGS) used throughout this analysis is an approximation only
--- and should not be treated as a definitive financial metric.
+-- Note: Because this dataset does not include unit cost or expense details,
+-- the calculated 'Cost of Goods Sold' (COGS) used in this analysis is an approximation only.
 
 # -----------------------------------------------------------------------------------------------------------
 
