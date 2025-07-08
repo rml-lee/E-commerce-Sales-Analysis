@@ -1,6 +1,15 @@
 # SuperStore Analysis
 
 
+# -----------------------------------------------------------------------------------------------------------
+
+-- Note: The calculated "Cost of Goods Sold" (COGS) used throughout this analysis is an approximation only
+-- and should not be treated as a definitive financial metric.
+
+# -----------------------------------------------------------------------------------------------------------
+
+
+
 -- 1. What is the order volume from each region?
 SELECT
     region,
@@ -135,7 +144,7 @@ WHERE
 
 
 
--- 9. Summarize the total amount of customers and transactions that are at least $250 that occurred each month during 2016.
+-- 9. Summarize the total amount of customers and transactions each month during 2016 that are at least $250.
 SELECT
     month,
     COUNT(DISTINCT customer_id) AS total_customers,
@@ -151,8 +160,9 @@ FROM
     WHERE
         YEAR(order_date) = 2016
     GROUP BY 1, 2, 3
-    HAVING ROUND(SUM(sales), 2) >= 250
     ORDER BY 1 ASC, 2 ASC, 3 ASC) t
+WHERE
+    total_sales >= 250
 GROUP BY 1;
 
 
