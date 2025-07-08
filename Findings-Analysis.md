@@ -10,6 +10,7 @@ Tableau - [Link](https://public.tableau.com/views/Workbook4_SuperStoreProject/Li
 
 ![Line Graph](https://github.com/rml-lee/E-commerce-Sales-Analysis/assets/160198611/0788d32a-3593-4184-9a93-4e6038f7cbf5)
 
+**Note**: Because this dataset does not include unit cost or expense details, gross margin analysis is an approximation only.
 
 - **Furniture**: This department has earned a negative gross margin percentage four times throughout 2016. This is likely due to the pricing strategies implemented within this department.
 
