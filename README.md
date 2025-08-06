@@ -6,12 +6,12 @@ The goal of this project is to gather actionable insights and identify trends fr
 **Domain**: Retail and E-Commerce
 
 ## Table of Contents
-- [Data Source](#data-source)
-- [Data Dictionary](#data-dictionary)
-- [Data Cleaning & Exploration](#data-cleaning--exploration)
-- [Data Schema](#data-schema)
-- [Data Transformation](#data-transformation)
-- [Findings & Analysis](#findings--analysis)
+- [**Data Source**](#data-source)
+- [**Data Dictionary**](#data-dictionary)
+- [**Data Cleaning & Exploration**](#data-cleaning--exploration)
+- [**Data Schema**](#data-schema)
+- [**Data Transformation**](#data-transformation)
+- [**Findings & Analysis**](#findings--analysis)
 
 # Data Source
 Superstore Dataset - [Kaggle](https://www.kaggle.com/datasets/vivek468/superstore-dataset-final)
