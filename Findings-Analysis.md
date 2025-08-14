@@ -22,7 +22,8 @@ Tableau - [Link](https://public.tableau.com/views/Workbook4_SuperStoreProject/Li
 
 **Recommendations:**
 
-- **Option 1**: Re-evaluate pricing strategies for the Furniture department. Increase prices to better reflect the cost of goods sold and market value. 
+- **Option 1**: Re-evaluate pricing strategies for the Furniture department. Increase prices to better reflect the cost of goods sold and market value.
+  
 - **Option 2**: Analyze and control the cost of goods sold by negotiating better terms with suppliers, finding alternative suppliers, or bulk purchasing. Improve operational efficiency by optimizing production processes, reducing waste, and implementing lean manufacturing practices.
 
 
@@ -60,6 +61,6 @@ Tableau - [Link](https://public.tableau.com/views/Workbook4_SuperStoreProject/Sc
 
 **Recommendations:**
 
-  Note: Refer to the Tableau link above for more details on which specific products are experiencing a profit loss and the regions they are located in.
+Note: Refer to the Tableau link above for more details on which specific products are experiencing a profit loss and the regions they are located in.
 
-- Look into product returns and/or overhead in those regions for products generating a profit loss.
+  - Look into product returns and/or overhead in those regions for products generating a profit loss.
