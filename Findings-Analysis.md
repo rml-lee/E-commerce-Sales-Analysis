@@ -26,6 +26,7 @@ Tableau - [Link](https://public.tableau.com/views/Workbook4_SuperStoreProject/Li
   
 - **Option 2**: Analyze and control the cost of goods sold by negotiating better terms with suppliers, finding alternative suppliers, or bulk purchasing. Improve operational efficiency by optimizing production processes, reducing waste, and implementing lean manufacturing practices.
 
+---
 
 ## 6. What is the profit margin for each city?
 
@@ -44,6 +45,8 @@ Tableau - [Link](https://public.tableau.com/views/Workbook4_SuperStoreProject/Ma
 - Investigate the operational costs at those locations. 
 
 - Consider closing those locations if they continue to incur a profit loss.
+
+---
 
 ## What is the correlation between profit and sales? Are we receiving a profit loss from any particular product?
 
