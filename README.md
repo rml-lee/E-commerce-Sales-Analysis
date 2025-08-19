@@ -3,7 +3,6 @@
 # Business Task
 This analysis will gather actionable insights and identify trends from the provided superstore dataset, taking a deeper dive into sales trends and profitability drivers. The goal is to pinpoint underperforming products, departments, and locations by examining profitability. This will enable data-driven strategies to optimize operational efficiency for improved financial health.
 
-**Domain**: Retail and E-Commerce
 
 ## Table of Contents
 - [**Data Source**](#data-source)
