@@ -1,7 +1,7 @@
 # E-commerce Sales Analysis
 
 # Business Objective
-This analysis will gather actionable insights and identify trends from the provided superstore dataset, taking a deeper dive into sales trends and profitability drivers. The goal is to pinpoint underperforming products, departments, and locations by examining profitability. This will enable data-driven strategies to optimize operational efficiency for improved financial health.
+This analysis will gather actionable insights and identify trends from the provided superstore dataset, specifically looking into sales trends and profitability drivers. The goal is to pinpoint underperforming products, departments, and locations by examining profitability. This will enable data-driven strategies to optimize operational efficiency for improved financial health.
 
 
 # Table of Contents
