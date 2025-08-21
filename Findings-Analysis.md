@@ -15,7 +15,7 @@ Tableau - [Link](https://public.tableau.com/views/Workbook4_SuperStoreProject/Li
 
 **Findings:**
 
-- **Furniture**: This department has earned a negative gross margin percentage four times throughout 2016. This is likely due to the pricing strategies implemented within this department.
+- **Furniture**: This department has earned a negative gross margin percentage four times throughout 2016.
 
 - **Office Supplies**: At the start of the second quarter, office supplies experienced the largest negative gross margin of the year but managed to recover significantly during the latter half of the year.
 
