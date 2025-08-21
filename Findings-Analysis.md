@@ -15,7 +15,7 @@ Tableau - [Link](https://public.tableau.com/views/Workbook4_SuperStoreProject/Li
 
 **Findings:**
 
-- **Furniture**: This department has the worst consistent performance, earning a negative gross margin percentage four times throughout 2016.
+- **Furniture**: This department has the **most consistently poor performance**, recording a negative gross margin percentage four times throughout the year.
 
 - **Office Supplies**: At the start of the second quarter, office supplies experienced the largest negative gross margin of the year but managed to recover significantly during the latter half of the year.
 
