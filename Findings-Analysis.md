@@ -8,7 +8,8 @@
 
 Tableau - [Link](https://public.tableau.com/views/Workbook4_SuperStoreProject/LineGraph?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
 
-![Line Graph](https://github.com/rml-lee/E-commerce-Sales-Analysis/assets/160198611/0788d32a-3593-4184-9a93-4e6038f7cbf5)
+<img width="3858" height="2414" alt="Line Graph" src="https://github.com/user-attachments/assets/609280c8-3566-46c7-bad1-483205eb4469" />
+
 
 **Note**: Because this dataset does not include unit cost or expense details, gross margin analysis is an approximation only.
 
