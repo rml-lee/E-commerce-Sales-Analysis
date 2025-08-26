@@ -31,9 +31,10 @@ Tableau - [Link](https://public.tableau.com/views/Workbook4_SuperStoreProject/Li
 
 ## 6. What is the profit margin for each state?
 
-Tableau - [Link](https://public.tableau.com/views/Workbook4_SuperStoreProject/Map?:language=en-US&:sid=&:display_count=n&:origin=viz_share_link)
+Tableau - [Link](https://public.tableau.com/shared/8ZDXB3568?:display_count=n&:origin=viz_share_link)
 
-![Map](https://github.com/rml-lee/MYSQL-Tableau-SuperStore-Project/assets/160198611/ddececed-14ff-40b0-9b0d-e9797c33047b)
+<img width="3854" height="2410" alt="Map" src="https://github.com/user-attachments/assets/69bdbe46-2e90-44e9-925d-b3e5d4696ef9" />
+
 
 **Findings:**
 
