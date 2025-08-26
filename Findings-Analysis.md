@@ -33,7 +33,9 @@ Tableau - [Link](https://public.tableau.com/views/Workbook4_SuperStoreProject/Li
 
 Tableau - [Link](https://public.tableau.com/shared/8ZDXB3568?:display_count=n&:origin=viz_share_link)
 
-<img width="3854" height="2410" alt="Map" src="https://github.com/user-attachments/assets/69bdbe46-2e90-44e9-925d-b3e5d4696ef9" />
+
+<img width="4974" height="2414" alt="Map" src="https://github.com/user-attachments/assets/8167d8fc-ee41-4dca-8204-44fc37498817" />
+
 
 
 **Findings:**
