@@ -41,11 +41,9 @@ Tableau - [Link](https://public.tableau.com/views/Workbook4_SuperStoreProject/Ma
 
 **Recommendations:** 
 
-- Examine the cities of those specific locations to determine if any products being sold are incurring a profit loss.
+- Examine the shipping and logistics costs to these cities. The longer the distance from the fulfillment centers, the more expensive the delivery becomes, affecting margin.
 
-- Investigate the operational costs at those locations. 
-
-- Consider closing those locations if they continue to incur a profit loss.
+- Customers in these cities may be consistently placing small, low-value orders. Look into Average Order Value of these cities.
 
 ---
 
