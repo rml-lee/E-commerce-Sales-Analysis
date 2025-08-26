@@ -40,13 +40,13 @@ Tableau - [Link](https://public.tableau.com/shared/8ZDXB3568?:display_count=n&:o
 
 **Findings:**
 
-- **Arizona, California, Colorado, Florida, Illinois, Massachusetts, North Carolina, Ohio, Oregon, Pennsylvania, Tennessee, Texas, and Maryland** all have locations that aren’t generating a profit. This tends to be the case consistently year over year.
+- **Arizona, Colorado, Florida, Illinois, North Carolina, Ohio, Oregon, Pennsylvania, Tennessee, and Texas** all have locations that aren’t generating a profit. This tends to be the case consistently year over year.
 
 **Recommendations:** 
 
 - Examine the shipping and logistics costs to these cities. The longer the distance from the fulfillment centers, the more expensive the delivery becomes, affecting margin.
 
-- Customers in these cities may be consistently placing small, low-value orders. Look into Average Order Value of these cities.
+- Investigate the effect discounts are having in these states. We are probably running promotions that are too aggressive for the underlying economics of those states.
 
 ---
 
