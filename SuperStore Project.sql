@@ -86,17 +86,31 @@ ORDER BY 1 ASC;
 
 
 
--- 6. What is the profit margin for each city?
+-- 6. What is the profit margin for each state per year?
 SELECT
     YEAR(order_date) AS year,
     country,
     state,
-    city,
     ROUND(SUM(profit) / SUM(sales), 3) AS profit_margin
 FROM
     sample_superstore
-GROUP BY 1, 2, 3, 4
+GROUP BY 1, 2, 3
 ORDER BY 1 ASC;
+
+
+
+-- 6.2 Root Cause Analysis: Are discounts causing states to have a negative profit margin?
+SELECT
+    YEAR(order_date) AS year,
+    country,
+    state,
+    ROUND(SUM(profit) / SUM(sales), 3) AS profit_margin,
+    ROUND((SUM(discount) / SUM(sales)) * 100, 2) AS avg_discount_rate_percent
+FROM
+    sample_superstore
+GROUP BY 1, 2, 3
+ORDER BY 1 ASC, 4 ASC;
+
 
 
 
