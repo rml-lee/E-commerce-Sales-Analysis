@@ -49,7 +49,7 @@ Tableau - [Link](https://public.tableau.com/views/Workbook4_SuperStoreProject/Ma
 
 ---
 
-## What is the correlation between profit and sales? Are we receiving a profit loss from any particular product?
+## 7. What is the correlation between profit and sales? Are we receiving a profit loss from high selling products?
 
 Tableau - [Link](https://public.tableau.com/views/Workbook4_SuperStoreProject/ScatterPlot?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
 
