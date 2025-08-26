@@ -57,14 +57,16 @@ Tableau - [Link](https://public.tableau.com/views/Workbook4_SuperStoreProject/Sc
 
 **Findings:**
 
-- There is a **negative correlation** between sales and profit for the **Cubify CubeX 3D Printer (Double Head Print)** in the **Technology** category within the **East** region.
+- The products incurring the largest losses year-over-year are predominantly from the **Technology** and **Office Supplies** departments.
 
-- The **negative correlation** for this printer becomes stronger going from 2015 to 2016, generating a higher profit loss.
+- Specifically, printers within the **Technology** department show the most consistent year-over-year profitability declines. Key examples include:
 
-- Items incurring the most profit loss (i.e., most negatively correlated) come from **Furniture** and **Technology**.
+  - **Cubify CubeX 3D Printer (Double Head Print)**
+  - **Cubify CubeX 3D Printer (Triple Head Print)**
+  - **Lexmark MX611dhe Monochrome Laser Printer**
 
 **Recommendations:**
 
 Note: Due to the high volume of products, please refer to the Tableau link above for details on specific products experiencing profit losses and their respective regions.
-
-  - Look into product returns and/or overhead in those regions for products generating a profit loss.
+ 
+  - Look into product returns and/or overhead for products within **Technology** and **Office Supplies** within those regions.
