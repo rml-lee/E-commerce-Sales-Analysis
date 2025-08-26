@@ -69,4 +69,4 @@ Tableau - [Link](https://public.tableau.com/views/Workbook4_SuperStoreProject/Sc
 
 Note: Due to the high volume of products, please refer to the Tableau link above for details on specific products experiencing profit losses and their respective regions.
 
-- **High Priority**: Investigate product returns and overhead costs for the listed printers, and monitor these metrics across the broader Technology and Office Supplies departments.
+- **High Priority**: Investigate product returns and overhead costs for the listed printers, and monitor these metrics across the broader **Technology** and **Office Supplies** departments.
