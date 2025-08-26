@@ -50,6 +50,21 @@ Tableau - [Link](https://public.tableau.com/shared/8ZDXB3568?:display_count=n&:o
 
 ---
 
+## 6.2 Root Cause Analysis: Are discounts causing states to have a negative profit margin?
+
+Tableau - [Link](https://public.tableau.com/views/Workbook4_SuperStoreProject/ScatterPlot2?:language=en-US&publish=yes&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
+
+<img width="4972" height="2368" alt="Scatter Plot 2" src="https://github.com/user-attachments/assets/63c8fd24-99d3-409e-99a5-2c1623c7f02e" />
+
+
+**Findings:**
+
+
+**Recommendations:** 
+
+
+---
+
 ## 7. What is the correlation between profit and sales? Are we incurring a loss on our best-selling products?
 
 Tableau - [Link](https://public.tableau.com/views/Workbook4_SuperStoreProject/ScatterPlot?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
