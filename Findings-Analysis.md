@@ -69,4 +69,4 @@ Tableau - [Link](https://public.tableau.com/views/Workbook4_SuperStoreProject/Sc
 
 Note: Due to the high volume of products, please refer to the Tableau link above for details on specific products experiencing profit losses and their respective regions.
  
-  - Look into product returns and/or overhead for products within **Technology** and **Office Supplies** within those regions.
+  - Look into product returns and/or overhead for the listed printers as well as other products within **Technology** and **Office Supplies**.
