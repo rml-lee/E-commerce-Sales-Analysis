@@ -100,7 +100,13 @@ ORDER BY 1 ASC;
 
 
 
--- 7. Which customers made at least 5 orders during 2015 and 2016?
+-- 7. What is the correlation between profit and sales? Are we receiving a profit loss from high selling products?
+
+    -- Data transformation won't be necessary to answer this question. We will use Tableau to display the results!
+
+
+
+-- 8. Which customers made at least 5 orders during 2015 and 2016?
 SELECT
     customer_id
 FROM
@@ -121,7 +127,7 @@ HAVING COUNT(*) >= 5;
 
 
 
--- 8. Which customers made a second order within 7 days of their previous order during the second quarter of 2017?
+-- 9. Which customers made a second order within 7 days of their previous order during the second quarter of 2017?
 WITH q2_2017_data AS (
     SELECT
         *
@@ -144,7 +150,7 @@ WHERE
 
 
 
--- 9. Summarize the total amount of customers and transactions each month during 2016 that are at least $250.
+-- 10. Summarize the total amount of customers and transactions each month during 2016 that are at least $250.
 SELECT
     month,
     COUNT(DISTINCT customer_id) AS total_customers,
@@ -167,7 +173,7 @@ GROUP BY 1;
 
 
 
--- 10. Customer Segmentation: Which customers purchased the same items within the sub-category (chairs) in 2016?
+-- 11. Customer Segmentation: Which customers purchased the same items within the sub-category (chairs) in 2016?
 
 WITH chair_products AS (
     -- Get all chair products with their customers in 2016
