@@ -29,7 +29,7 @@ Tableau - [Link](https://public.tableau.com/views/Workbook4_SuperStoreProject/Li
 
 ---
 
-## 6. What is the profit margin for each city?
+## 6. What is the profit margin for each state?
 
 Tableau - [Link](https://public.tableau.com/views/Workbook4_SuperStoreProject/Map?:language=en-US&:sid=&:display_count=n&:origin=viz_share_link)
 
