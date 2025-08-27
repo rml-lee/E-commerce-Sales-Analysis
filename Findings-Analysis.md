@@ -46,7 +46,7 @@ Tableau - [Link](https://public.tableau.com/shared/SK8KNPF9H?:display_count=n&:o
 
 - Examine shipping and logistics costs. The longer the distance from the fulfillment centers, the more expensive the delivery becomes, affecting margin.
 
-- Investigate the effect discounts are having in these states. We are probably running promotions that are too aggressive for the underlying economics of those states.
+- **Investigate the effect discounts are having in these states.** We are probably running promotions that are too aggressive for the underlying economics of those states.
 
 ---
 
