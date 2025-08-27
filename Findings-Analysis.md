@@ -42,15 +42,18 @@ Tableau - [Link](https://public.tableau.com/shared/SK8KNPF9H?:display_count=n&:o
 
 - **Arizona, Colorado, Florida, Illinois, North Carolina, Ohio, Oregon, Pennsylvania, Tennessee, and Texas** are incuring a profit loss. This tends to be the case consistently year over year.
 
-**Recommendations:** 
-
-- Examine shipping and logistics costs. The longer the distance from the fulfillment centers, the more expensive the delivery becomes, affecting margin.
+**Recommendations:**
 
 - **Investigate the effect discounts are having in these states.** We are probably running promotions that are too aggressive for the underlying economics of those states.
 
+- **Examine the average order value.** Customers in these states could be buying fewer or cheaper items per order. The fixed cost of fulfillment (including shipping) is too high relative to the revenue brought in. This makes orders inherently less profitable, and discounts make it worse.
+
+- **Examine shipping and logistics costs.** The longer the distance from the fulfillment centers, the more expensive the delivery becomes, affecting margin.
+
+
 ---
 
-## 6.2 - Diagnostic Analysis (Root Cause): Discount Rate Analysis
+## 6.2 - Diagnostic Analysis (Root Cause): Discount Rate
 ## Let's compare the profit margin to the average discount rate in each state. 
 ## Do our promotion strategies significantly contribute to losses in low-performing states?
 
@@ -67,11 +70,11 @@ Tableau - [Link](https://public.tableau.com/views/Workbook4_SuperStoreProject/Sc
 
 **Recommendations:** 
 
-- **Investigate the value of orders per state.** Orders with low sales value cannot absorb the fixed costs of fulfillment (e.g., picking, packing, shipping), leading to thin or negative margins, even without discounts.
+- **Investigate the average order value per state.** Orders with low sales value cannot absorb the fixed costs of fulfillment (e.g., picking, packing, shipping), leading to thin or negative margins, even without discounts.
 
 ---
 
-## 6.3 - Diagnostic Analysis (Root Cause): Order Value Analysis
+## 6.3 - Diagnostic Analysis (Root Cause): Order Value
 ## Let's compare the profit margin to the average order value. 
 ## Are our pricing strategies and order structure contributing to profitability issues?
 
@@ -84,15 +87,15 @@ Tableau - [Link](https://public.tableau.com/views/Workbook4_SuperStoreProject/Sc
 
 - The Average Order Value (AOV) within problem states are roughly the same when comparared to profitable states year to year. This is a very strong indication that AOV is NOT the main problem. The most logical explanation, which fits our analysis so far, is excessively high shipping costs.
 
-- This is a cost problem, not a revenue problem.
+- There is now enough evidence that this is a **cost** problem, not a revenue problem.
 
 **Recommendations:** 
 
-- Investigate costs assocated with order fulfillment. Compare costs to the average order value. 
+- **Investigate costs assocated with order fulfillment.** Compare costs to the average order value. 
 
 
 ---
-## 6.4 - Diagnostic Analysis (Root Cause): Cost Analysis
+## 6.4 - Diagnostic Analysis (Root Cause): Fulfillment Cost
 ## Let's compare the profit margin to the costs per order in each state. 
 ## Are our fulfillment and shipping costs the primary driver of profitability issues in low-performing states?
 
@@ -106,7 +109,9 @@ Tableau - [Link](https://public.tableau.com/views/Workbook4_SuperStoreProject/Ba
 
 Note: Since the dataset lacks specific shipping cost data, we will calculate an implied Cost Per Order (CPO) derived from sales, discounts, and profit. This metric will be expressed as the Average Implied Cost per Order for each state, providing an accurate estimate of fulfillment expenses.
 
-  - The cost to fulfill and ship an order is significantly higher in the problem states, despite those orders having a similar sales value to orders in profitable states. This higher cost erodes the margin, and when combined with discounts, turns a thin margin into a loss.
+  - Just as we thought, the root cause of profit loss is not revenue (sales, discounts) but **cost.** The implied cost to fulfill and ship an order is significantly higher in problem states.
+
+  - In profitable states, the order value outweighs the costs, which generates profit. However, in problem states, the costs outweigh the order value.
 
 **Recommendations:** 
 
