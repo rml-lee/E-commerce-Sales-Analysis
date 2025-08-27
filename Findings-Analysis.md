@@ -66,7 +66,7 @@ Tableau - [Link](https://public.tableau.com/views/Workbook4_SuperStoreProject/Sc
 
 - Yes, the data shows a strong correlation between higher discount rates and negative profit margins, indicating that **discounts are a contributor to profit loss**. This relationship is clear when comparing states: those with low discount rates tend to be profitable, while those with high discount rates are consistently unprofitable.
 
-- Despite this, discount rates were actually lower in problem states in 2016, yet those states were still unprofitable. This indicates that while discounts exacerbate the problem, they are not the root cause. Reducing them lessens the loss but does not eliminate it.
+- Discount rates were actually lower in problem states in 2016, yet those states were still unprofitable. **This indicates that while discounts exacerbate the problem, they are not the root cause.** Reducing them lessens the loss but does not eliminate it.
 
 **Recommendations:** 
 
@@ -85,11 +85,11 @@ Tableau - [Link](https://public.tableau.com/shared/X4XRXD9QP?:display_count=n&:o
 
 **Findings:**
 
-- The Average Order Value (AOV) within problem states are roughly the same when comparared to profitable states year to year. This is a very strong indication that AOV is NOT the main problem. The most logical explanation, which fits our analysis so far, is excessively high shipping costs.
+- The Average Order Value (AOV) within problem states are roughly in the same range of profitable states year to year. This is a very strong indication that AOV is NOT the main problem. The most logical explanation, which fits our analysis so far, is excessively high shipping costs.
 
 **Recommendations:** 
 
-- **Investigate costs assocated with order fulfillment.** Compare costs to the average order value for each state. 
+- **Investigate costs assocated with order fulfillment.** Compare costs to the Average Order Value (AOV) for each state. 
 
 
 ---
