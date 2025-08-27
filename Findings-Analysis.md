@@ -84,7 +84,7 @@ Tableau - [Link](https://public.tableau.com/views/Workbook4_SuperStoreProject/Sc
 
 
 ---
-## 6.4 Diagnostic Analysis (Root Cause): Let's compare the profit margin to the costs per order in each state. Are our fulfillment and shipping costs the primary driver of profitability issues in low-performing states?
+## 6.4 - Diagnostic Analysis (Root Cause): Let's compare the profit margin to the costs per order in each state. Are our fulfillment and shipping costs the primary driver of profitability issues in low-performing states?
 
 Tableau - [Link](https://public.tableau.com/views/Workbook4_SuperStoreProject/BarChart?:language=en-US&publish=yes&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
 
