@@ -29,21 +29,41 @@ Tableau - [Link](https://public.tableau.com/views/Workbook4_SuperStoreProject/Li
 
 ---
 
-## 6. What is the profit margin for each city?
+## 6. What is the profit margin for each state? Are any states incurring a profit loss?
 
-Tableau - [Link](https://public.tableau.com/views/Workbook4_SuperStoreProject/Map?:language=en-US&:sid=&:display_count=n&:origin=viz_share_link)
+Tableau - [Link](https://public.tableau.com/shared/8ZDXB3568?:display_count=n&:origin=viz_share_link)
 
-![Map](https://github.com/rml-lee/MYSQL-Tableau-SuperStore-Project/assets/160198611/ddececed-14ff-40b0-9b0d-e9797c33047b)
+
+<img width="4974" height="2414" alt="Map" src="https://github.com/user-attachments/assets/8167d8fc-ee41-4dca-8204-44fc37498817" />
+
+
 
 **Findings:**
 
-- **Arizona, California, Colorado, Florida, Illinois, Massachusetts, North Carolina, Ohio, Oregon, Pennsylvania, Tennessee, Texas, and Maryland** all have locations that aren’t generating a profit. This tends to be the case consistently year over year.
+- **Arizona, Colorado, Florida, Illinois, North Carolina, Ohio, Oregon, Pennsylvania, Tennessee, and Texas** all have locations that aren’t generating a profit. This tends to be the case consistently year over year.
 
 **Recommendations:** 
 
-- Examine the shipping and logistics costs to these cities. The longer the distance from the fulfillment centers, the more expensive the delivery becomes, affecting margin.
+- Examine the shipping and logistics costs to the cities within these states. The longer the distance from the fulfillment centers, the more expensive the delivery becomes, affecting margin.
 
-- Customers in these cities may be consistently placing small, low-value orders. Look into Average Order Value of these cities.
+- Investigate the effect discounts are having in these states. We are probably running promotions that are too aggressive for the underlying economics of those states.
+
+---
+
+## 6.2 - Diagnostic Analysis (Root Cause): Do our promotion strategies contribute significantly to profit loss in these states?
+
+Tableau - [Link](https://public.tableau.com/views/Workbook4_SuperStoreProject/ScatterPlot2?:language=en-US&publish=yes&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
+
+<img width="4972" height="2368" alt="Scatter Plot 2" src="https://github.com/user-attachments/assets/63c8fd24-99d3-409e-99a5-2c1623c7f02e" />
+
+
+**Findings:**
+
+- Yes, the data shows a strong correlation between higher discount rates and negative profit margins, indicating that **discounts are a significant contributor to profit loss**. This relationship is clear when comparing states: those with low discount rates tend to be profitable, while those with high discount rates are consistently unprofitable.
+
+**Recommendations:** 
+
+- Adjust promotion, pricing, or shipping strategies in the affordmentioned states.
 
 ---
 
