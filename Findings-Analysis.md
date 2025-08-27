@@ -50,7 +50,9 @@ Tableau - [Link](https://public.tableau.com/shared/SK8KNPF9H?:display_count=n&:o
 
 ---
 
-## 6.2 - Diagnostic Analysis (Root Cause): Let's compare the profit margin to the average discount rate in each state. Do our promotion strategies significantly contribute to losses in low-performing states?
+## 6.2 - Diagnostic Analysis (Root Cause): Discount Rate Analysis
+## Let's compare the profit margin to the average discount rate in each state. 
+## Do our promotion strategies significantly contribute to losses in low-performing states?
 
 Tableau - [Link](https://public.tableau.com/views/Workbook4_SuperStoreProject/ScatterPlot2?:language=en-US&publish=yes&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
 
@@ -69,7 +71,9 @@ Tableau - [Link](https://public.tableau.com/views/Workbook4_SuperStoreProject/Sc
 
 ---
 
-## 6.3 - Diagnostic Analysis (Root Cause): Let's compare the profit margin to the average order value. Are our pricing strategies and order structure contributing to profitability issues?
+## 6.3 - Diagnostic Analysis (Root Cause): Order Value Analysis
+## Let's compare the profit margin to the average order value. 
+## Are our pricing strategies and order structure contributing to profitability issues?
 
 Tableau - [Link](https://public.tableau.com/views/Workbook4_SuperStoreProject/ScatterPlot3?:language=en-US&publish=yes&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
 
@@ -78,9 +82,13 @@ Tableau - [Link](https://public.tableau.com/views/Workbook4_SuperStoreProject/Sc
 
 **Findings:**
 
+- The Average Order Value (AOV) within problem states are roughly the same when comparared to profitable states year to year. This is a very strong indication that AOV is NOT the main problem. The most logical explanation, which fits our analysis so far, is excessively high shipping costs.
+
+- This is a cost problem, not a revenue problem.
 
 **Recommendations:** 
 
+- Investigate costs assocated with order fulfillment. Compare costs to the average order value. 
 
 
 ---
@@ -94,6 +102,9 @@ Tableau - [Link](https://public.tableau.com/views/Workbook4_SuperStoreProject/Ba
 
 **Findings:**
 
+Note: Since the dataset lacks specific shipping cost data, we will calculate an implied Cost Per Order (CPO) derived from sales, discounts, and profit. This metric will be expressed as the Average Implied Cost per Order for each state, providing an accurate estimate of fulfillment expenses.
+
+  - The cost to fulfill and ship an order is significantly higher in the problem states, despite those orders having a similar sales value to orders in profitable states. This higher cost erodes the margin, and when combined with discounts, turns a thin margin into a loss.
 
 **Recommendations:** 
 
