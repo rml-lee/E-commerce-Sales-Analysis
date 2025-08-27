@@ -31,7 +31,7 @@ Tableau - [Link](https://public.tableau.com/views/Workbook4_SuperStoreProject/Li
 
 ## 6. What is the profit margin for each state? Are any states incurring a profit loss?
 
-Tableau - [Link](https://public.tableau.com/shared/8ZDXB3568?:display_count=n&:origin=viz_share_link)
+Tableau - [Link](https://public.tableau.com/shared/SK8KNPF9H?:display_count=n&:origin=viz_share_link)
 
 
 <img width="4974" height="2414" alt="Map" src="https://github.com/user-attachments/assets/8167d8fc-ee41-4dca-8204-44fc37498817" />
