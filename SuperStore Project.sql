@@ -127,6 +127,7 @@ GROUP BY 1, 2, 3
 ORDER BY 1 ASC;
 
 
+
 -- 6.4 Root Cause Analysis: Let's compare the profit margin to the costs per order in each state.
 -- Are our fulfillment and shipping costs the primary driver of profitability issues in low-performing states?
 SELECT
@@ -141,6 +142,7 @@ FROM
     sample_superstore
 GROUP BY 1, 2, 3
 ORDER BY 1 ASC, 5 ASC;
+
 
 
 -- 7. What is the correlation between profit and sales? Are we incurring a loss on our best-selling products?
