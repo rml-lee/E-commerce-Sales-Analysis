@@ -86,7 +86,7 @@ ORDER BY 1 ASC;
 
 
 
--- 6. What is the profit margin for each state per year?
+-- 6. What is the profit margin for each state per year? Are any states incurring a profit loss?
 SELECT
     YEAR(order_date) AS year,
     country,
@@ -99,7 +99,8 @@ ORDER BY 1 ASC;
 
 
 
--- 6.2 Root Cause Analysis: Are discounts causing states to have a negative profit margin?
+-- 6.2 Root Cause Analysis: Compare the average discount rate to profit margin in each state.
+-- Do our promotion strategies contribute significantly to profit loss in these states?
 SELECT
     YEAR(order_date) AS year,
     country,
