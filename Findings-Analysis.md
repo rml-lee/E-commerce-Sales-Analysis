@@ -50,7 +50,7 @@ Tableau - [Link](https://public.tableau.com/shared/8ZDXB3568?:display_count=n&:o
 
 ---
 
-## 6.2 - Diagnostic Analysis (Root Cause): Let's compare the average discount rate to profit margin in each state. Do our promotion strategies contribute significantly to states incurring a profit loss?
+## 6.2 - Diagnostic Analysis (Root Cause): Let's compare profit margin to the average discount rate within each state. Do our promotion strategies contribute significantly to states incurring a profit loss?
 
 Tableau - [Link](https://public.tableau.com/views/Workbook4_SuperStoreProject/ScatterPlot2?:language=en-US&publish=yes&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
 
