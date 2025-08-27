@@ -113,6 +113,35 @@ GROUP BY 1, 2, 3
 ORDER BY 1 ASC, 4 ASC;
 
 
+-- 6.3 Root Cause Analysis: Let's compare the profit margin to the average order value.
+-- Are our pricing strategies and order structure contributing to profitability issues?
+SELECT
+    YEAR(order_date) AS year,
+    country,
+    state,
+    ROUND(SUM(profit) / SUM(sales), 3) AS profit_margin,
+    ROUND(SUM(sales) / COUNT(*), 2) AS avg_order_value
+FROM
+    sample_superstore
+GROUP BY 1, 2, 3
+ORDER BY 1 ASC;
+
+
+-- 6.4 Root Cause Analysis: Let's compare the profit margin to the costs per order in each state.
+-- Are our fulfillment and shipping costs the primary driver of profitability issues in low-performing states?
+SELECT
+    YEAR(order_date) AS year,
+    country,
+    state,
+    COUNT(*) AS amount_of_orders,
+    ROUND(SUM(profit) / SUM(sales), 3) AS profit_margin,
+    ROUND((SUM(sales) - SUM(discount) - SUM(profit)) / COUNT(*), 2) AS avg_implied_cost_per_order,
+    ROUND(SUM(sales) / COUNT(*), 2) AS avg_order_value
+FROM
+    sample_superstore
+GROUP BY 1, 2, 3
+ORDER BY 1 ASC, 5 ASC;
+
 
 -- 7. What is the correlation between profit and sales? Are we incurring a loss on our best-selling products?
 
