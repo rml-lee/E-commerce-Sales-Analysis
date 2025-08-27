@@ -31,7 +31,7 @@ Tableau - [Link](https://public.tableau.com/views/Workbook4_SuperStoreProject/Li
 
 ## 6. What is the profit margin for each state? Are any states incurring a profit loss?
 
-Tableau - [Link](https://public.tableau.com/shared/8ZDXB3568?:display_count=n&:origin=viz_share_link)
+Tableau - [Link](https://public.tableau.com/shared/SK8KNPF9H?:display_count=n&:origin=viz_share_link)
 
 
 <img width="4974" height="2414" alt="Map" src="https://github.com/user-attachments/assets/8167d8fc-ee41-4dca-8204-44fc37498817" />
@@ -50,7 +50,7 @@ Tableau - [Link](https://public.tableau.com/shared/8ZDXB3568?:display_count=n&:o
 
 ---
 
-## 6.2 - Diagnostic Analysis (Root Cause): Let's compare the average discount rate to profit margin in each state. Do our promotion strategies contribute significantly to states incurring a profit loss?
+## 6.2 - Diagnostic Analysis (Root Cause): Let's compare the profit margin to the average discount rate in each state. Do our promotion strategies significantly contribute to losses in low-performing states?
 
 Tableau - [Link](https://public.tableau.com/views/Workbook4_SuperStoreProject/ScatterPlot2?:language=en-US&publish=yes&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
 
@@ -63,7 +63,7 @@ Tableau - [Link](https://public.tableau.com/views/Workbook4_SuperStoreProject/Sc
 
 **Recommendations:** 
 
-- Adjust promotion, pricing, or shipping strategies in the affordmentioned states.
+- Adjust promotion and pricing strategies in the affordmentioned states.
 
 ---
 
