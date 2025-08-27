@@ -97,9 +97,10 @@ Tableau - [Link](https://public.tableau.com/views/Workbook4_SuperStoreProject/Sc
 ## Let's compare the profit margin to the costs per order in each state. 
 ## Are our fulfillment and shipping costs the primary driver of profitability issues in low-performing states?
 
-Tableau - [Link](https://public.tableau.com/views/Workbook4_SuperStoreProject/BarChart?:language=en-US&publish=yes&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
+Tableau - [Link](https://public.tableau.com/views/Workbook4_SuperStoreProject/DualCombination?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
 
-<img width="4642" height="2368" alt="Dual Combination" src="https://github.com/user-attachments/assets/11ae71f0-befc-442a-84d6-35f504814609" />
+
+<img width="4972" height="2320" alt="Dual Combination" src="https://github.com/user-attachments/assets/597d7e5b-03bf-432a-9879-cbf769721653" />
 
 
 
