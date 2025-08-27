@@ -114,7 +114,6 @@ ORDER BY 1 ASC, 4 ASC;
 
 
 
-
 -- 7. What is the correlation between profit and sales? Are we incurring a loss on our best-selling products?
 
     -- Data transformation won't be necessary to answer this question. We will use Tableau to display the results!
