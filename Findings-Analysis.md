@@ -63,7 +63,7 @@ Tableau - [Link](https://public.tableau.com/views/Workbook4_SuperStoreProject/Sc
 
 **Recommendations:** 
 
-- Adjust promotion and pricing strategies in the affordmentioned states.
+- Adjust promotion, pricing, or shipping strategies in the affordmentioned states.
 
 ---
 
