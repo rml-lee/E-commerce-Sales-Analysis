@@ -59,9 +59,11 @@ Tableau - [Link](https://public.tableau.com/views/Workbook4_SuperStoreProject/Sc
 
 **Findings:**
 
+- Yes, the data shows a strong correlation between higher discount rates and negative profit margins, indicating that discounts are a significant contributor to profit loss. This relationship is clear when comparing states: those with low discount rates tend to be profitable, while those with high discount rates are consistently unprofitable.
 
 **Recommendations:** 
 
+- Adjust promotion and pricing strategies in the affordmentioned states.
 
 ---
 
