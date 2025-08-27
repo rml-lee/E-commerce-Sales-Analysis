@@ -113,6 +113,7 @@ GROUP BY 1, 2, 3
 ORDER BY 1 ASC, 4 ASC;
 
 
+
 -- 6.3 Root Cause Analysis: Let's compare the profit margin to the average order value.
 -- Are our pricing strategies and order structure contributing to profitability issues?
 SELECT
