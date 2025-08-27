@@ -40,17 +40,17 @@ Tableau - [Link](https://public.tableau.com/shared/8ZDXB3568?:display_count=n&:o
 
 **Findings:**
 
-- **Arizona, Colorado, Florida, Illinois, North Carolina, Ohio, Oregon, Pennsylvania, Tennessee, and Texas** all have locations that aren’t generating a profit. This tends to be the case consistently year over year.
+- **Arizona, Colorado, Florida, Illinois, North Carolina, Ohio, Oregon, Pennsylvania, Tennessee, and Texas** are incuring a profit loss. This tends to be the case consistently year over year.
 
 **Recommendations:** 
 
-- Examine the shipping and logistics costs to the cities within these states. The longer the distance from the fulfillment centers, the more expensive the delivery becomes, affecting margin.
+- Examine shipping and logistics costs. The longer the distance from the fulfillment centers, the more expensive the delivery becomes, affecting margin.
 
 - Investigate the effect discounts are having in these states. We are probably running promotions that are too aggressive for the underlying economics of those states.
 
 ---
 
-## 6.2 - Diagnostic Analysis (Root Cause): Do our promotion strategies contribute significantly to profit loss in these states?
+## 6.2 - Diagnostic Analysis (Root Cause): Do our promotion strategies contribute significantly to states incurring a profit loss?
 
 Tableau - [Link](https://public.tableau.com/views/Workbook4_SuperStoreProject/ScatterPlot2?:language=en-US&publish=yes&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
 
