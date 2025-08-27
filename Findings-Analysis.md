@@ -29,7 +29,7 @@ Tableau - [Link](https://public.tableau.com/views/Workbook4_SuperStoreProject/Li
 
 ---
 
-## 6. What is the profit margin for each state?
+## 6. What is the profit margin for each state? Are any states incurring a profit loss?
 
 Tableau - [Link](https://public.tableau.com/shared/8ZDXB3568?:display_count=n&:origin=viz_share_link)
 
@@ -44,13 +44,13 @@ Tableau - [Link](https://public.tableau.com/shared/8ZDXB3568?:display_count=n&:o
 
 **Recommendations:** 
 
-- Examine the shipping and logistics costs to these cities. The longer the distance from the fulfillment centers, the more expensive the delivery becomes, affecting margin.
+- Examine the shipping and logistics costs to the cities within these states. The longer the distance from the fulfillment centers, the more expensive the delivery becomes, affecting margin.
 
 - Investigate the effect discounts are having in these states. We are probably running promotions that are too aggressive for the underlying economics of those states.
 
 ---
 
-## 6.2 Root Cause Analysis: Are discounts causing states to have a negative profit margin?
+## 6.2 - Diagnostic Analysis (Root Cause): Do our promotion strategies contribute significantly to profit loss in these states?
 
 Tableau - [Link](https://public.tableau.com/views/Workbook4_SuperStoreProject/ScatterPlot2?:language=en-US&publish=yes&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
 
@@ -59,7 +59,7 @@ Tableau - [Link](https://public.tableau.com/views/Workbook4_SuperStoreProject/Sc
 
 **Findings:**
 
-- Yes, the data shows a strong correlation between higher discount rates and negative profit margins, indicating that discounts are a significant contributor to profit loss. This relationship is clear when comparing states: those with low discount rates tend to be profitable, while those with high discount rates are consistently unprofitable.
+- Yes, the data shows a strong correlation between higher discount rates and negative profit margins, indicating that **discounts are a significant contributor to profit loss**. This relationship is clear when comparing states: those with low discount rates tend to be profitable, while those with high discount rates are consistently unprofitable.
 
 **Recommendations:** 
 
