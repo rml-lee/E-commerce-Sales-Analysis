@@ -87,11 +87,11 @@ Tableau - [Link](https://public.tableau.com/views/Workbook4_SuperStoreProject/Sc
 
 - The Average Order Value (AOV) within problem states are roughly the same when comparared to profitable states year to year. This is a very strong indication that AOV is NOT the main problem. The most logical explanation, which fits our analysis so far, is excessively high shipping costs.
 
-- There is now enough evidence that this is a **cost** problem, not a revenue problem.
+- At this point, the evidence strongly implies that this is likely a **cost** problem, not a revenue problem.
 
 **Recommendations:** 
 
-- **Investigate costs assocated with order fulfillment.** Compare costs to the average order value. 
+- **Investigate costs assocated with order fulfillment.** Compare costs to the average order value for each state. 
 
 
 ---
@@ -107,7 +107,7 @@ Tableau - [Link](https://public.tableau.com/views/Workbook4_SuperStoreProject/Ba
 
 **Findings:**
 
-Note: Since the dataset lacks specific shipping cost data, we will calculate an implied Cost Per Order (CPO) derived from sales, discounts, and profit. This metric will be expressed as the Average Implied Cost per Order for each state, providing an accurate estimate of fulfillment expenses.
+Note: Since the dataset lacks specific shipping cost data, we will calculate an implied Cost Per Order (CPO) derived from sales, discounts, and profit. This metric will be expressed as the Average Implied Cost per Order, providing an accurate estimate of fulfillment expenses.
 
   - Just as we thought, the root cause of profit loss is not revenue (sales, discounts) but **cost.** The implied cost to fulfill and ship an order is significantly higher in problem states.
 
