@@ -113,8 +113,14 @@ Note: Since the dataset lacks specific shipping cost data, we will calculate an 
 
   - In profitable states, the order value outweighs the costs, which generates profit. However, in problem states, the costs outweigh the order value.
 
-**Recommendations:** 
+**Conclusion & Final Recommendation:** 
 
+1. Discounts are deeper in problem states but are not the root cause.
+2. AOV is similar across states, ruling out a revenue problem.
+3. Therefore, the root cause must be a cost problem.
+4. The only logical cost variable that varies significantly by state is Shipping.
+
+- Re-evaluate shipping business model in order to fix profitability.
 
 ---
 
