@@ -78,7 +78,7 @@ Tableau - [Link](https://public.tableau.com/views/Workbook4_SuperStoreProject/Sc
 ## Let's compare the profit margin to the average order value. 
 ## Are our pricing strategies and order structure contributing to profitability issues?
 
-Tableau - [Link](https://public.tableau.com/views/Workbook4_SuperStoreProject/ScatterPlot3?:language=en-US&publish=yes&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
+Tableau - [Link](https://public.tableau.com/shared/X4XRXD9QP?:display_count=n&:origin=viz_share_link)
 
 <img width="4972" height="2320" alt="Scatter Plot 3" src="https://github.com/user-attachments/assets/defcd02a-83b9-4f0a-80e9-5b972d652ac4" />
 
