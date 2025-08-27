@@ -87,8 +87,6 @@ Tableau - [Link](https://public.tableau.com/views/Workbook4_SuperStoreProject/Sc
 
 - The Average Order Value (AOV) within problem states are roughly the same when comparared to profitable states year to year. This is a very strong indication that AOV is NOT the main problem. The most logical explanation, which fits our analysis so far, is excessively high shipping costs.
 
-- At this point, the evidence strongly implies that this is likely a **cost** problem, not a revenue problem.
-
 **Recommendations:** 
 
 - **Investigate costs assocated with order fulfillment.** Compare costs to the average order value for each state. 
