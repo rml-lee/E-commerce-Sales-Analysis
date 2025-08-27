@@ -115,10 +115,20 @@ Note: Since the dataset lacks specific shipping cost data, we will calculate an 
 
 1. Discounts are deeper in problem states but are not the root cause.
 2. AOV is similar across states, ruling out a revenue problem.
-3. Therefore, the root cause must be a cost problem.
+3. According to the data, the root cause strongly suggests a cost problem.
 4. The only logical cost variable that varies significantly by state is Shipping.
 
-- Re-evaluate shipping business model in order to fix profitability.
+- Re-evaluate shipping business model in order to fix profitability within the following states:
+  - Arizona
+  - Colorado
+  - Florida
+  - Illinois
+  - North Carolina
+  - Ohio
+  - Oregon
+  - Pennsylvania
+  - Tennessee
+  - Texas
 
 ---
 
