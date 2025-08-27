@@ -69,6 +69,37 @@ Tableau - [Link](https://public.tableau.com/views/Workbook4_SuperStoreProject/Sc
 
 ---
 
+## 6.3 - Diagnostic Analysis (Root Cause): Let's compare the profit margin to the average order value. Are our pricing strategies and order structure contributing to profitability issues?
+
+Tableau - [Link](https://public.tableau.com/views/Workbook4_SuperStoreProject/ScatterPlot3?:language=en-US&publish=yes&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
+
+<img width="4972" height="2320" alt="Scatter Plot 3" src="https://github.com/user-attachments/assets/defcd02a-83b9-4f0a-80e9-5b972d652ac4" />
+
+
+**Findings:**
+
+
+**Recommendations:** 
+
+
+
+---
+## 6.4 Diagnostic Analysis (Root Cause): Let's compare the profit margin to the costs per order in each state. Are our fulfillment and shipping costs the primary driver of profitability issues in low-performing states?
+
+Tableau - [Link](https://public.tableau.com/views/Workbook4_SuperStoreProject/BarChart?:language=en-US&publish=yes&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
+
+<img width="4972" height="2320" alt="Bar Chart" src="https://github.com/user-attachments/assets/78d9a9a2-662f-4d6c-925d-9165cf92239a" />
+
+
+
+**Findings:**
+
+
+**Recommendations:** 
+
+
+---
+
 ## 7. What is the correlation between profit and sales? Are we incurring a loss on our best-selling products?
 
 Tableau - [Link](https://public.tableau.com/views/Workbook4_SuperStoreProject/ScatterPlot?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
