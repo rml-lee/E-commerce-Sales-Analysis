@@ -99,8 +99,8 @@ ORDER BY 1 ASC;
 
 
 
--- 6.2 Root Cause Analysis: Compare the average discount rate to profit margin in each state.
--- Do our promotion strategies contribute significantly to states incurring a profit loss?
+-- 6.2 Root Cause Analysis: Let's compare the profit margin to the average discount rate in each state.
+-- Do our promotion strategies significantly contribute to losses in low-performing states?
 SELECT
     YEAR(order_date) AS year,
     country,
