@@ -59,11 +59,44 @@ Tableau - [Link](https://public.tableau.com/views/Workbook4_SuperStoreProject/Sc
 
 **Findings:**
 
-- Yes, the data shows a strong correlation between higher discount rates and negative profit margins, indicating that **discounts are a significant contributor to profit loss**. This relationship is clear when comparing states: those with low discount rates tend to be profitable, while those with high discount rates are consistently unprofitable.
+- Yes, the data shows a strong correlation between higher discount rates and negative profit margins, indicating that **discounts are a contributor to profit loss**. This relationship is clear when comparing states: those with low discount rates tend to be profitable, while those with high discount rates are consistently unprofitable.
+
+- Despite this, discount rates were actually lower in problem states in 2016, yet those states were still unprofitable. This indicates that while discounts exacerbate the problem, they are not the root cause. Reducing them lessens the loss but does not eliminate it.
 
 **Recommendations:** 
 
-- Adjust promotion and pricing strategies in the affordmentioned states.
+- **Investigate the value of orders per state.** Orders with low sales value cannot absorb the fixed costs of fulfillment (e.g., picking, packing, shipping), leading to thin or negative margins, even without discounts.
+
+---
+
+## 6.3 - Diagnostic Analysis (Root Cause): Let's compare the profit margin to the average order value. Are our pricing strategies and order structure contributing to profitability issues?
+
+Tableau - [Link](https://public.tableau.com/views/Workbook4_SuperStoreProject/ScatterPlot3?:language=en-US&publish=yes&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
+
+<img width="4972" height="2320" alt="Scatter Plot 3" src="https://github.com/user-attachments/assets/defcd02a-83b9-4f0a-80e9-5b972d652ac4" />
+
+
+**Findings:**
+
+
+**Recommendations:** 
+
+
+
+---
+## 6.4 - Diagnostic Analysis (Root Cause): Let's compare the profit margin to the costs per order in each state. Are our fulfillment and shipping costs the primary driver of profitability issues in low-performing states?
+
+Tableau - [Link](https://public.tableau.com/views/Workbook4_SuperStoreProject/BarChart?:language=en-US&publish=yes&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
+
+<img width="4972" height="2320" alt="Bar Chart" src="https://github.com/user-attachments/assets/78d9a9a2-662f-4d6c-925d-9165cf92239a" />
+
+
+
+**Findings:**
+
+
+**Recommendations:** 
+
 
 ---
 
