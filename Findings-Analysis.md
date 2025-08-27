@@ -99,7 +99,7 @@ Tableau - [Link](https://public.tableau.com/views/Workbook4_SuperStoreProject/Sc
 
 Tableau - [Link](https://public.tableau.com/views/Workbook4_SuperStoreProject/BarChart?:language=en-US&publish=yes&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
 
-<img width="4972" height="2320" alt="Bar Chart" src="https://github.com/user-attachments/assets/78d9a9a2-662f-4d6c-925d-9165cf92239a" />
+<img width="4642" height="2368" alt="Dual Combination" src="https://github.com/user-attachments/assets/11ae71f0-befc-442a-84d6-35f504814609" />
 
 
 
@@ -107,7 +107,7 @@ Tableau - [Link](https://public.tableau.com/views/Workbook4_SuperStoreProject/Ba
 
 Note: Since the dataset lacks specific shipping cost data, we will calculate an implied Cost Per Order (CPO) derived from sales, discounts, and profit. This metric will be expressed as the Average Implied Cost per Order, providing an accurate estimate of fulfillment expenses.
 
-  - Just as we thought, the root cause of profit loss is not revenue (sales, discounts) but **cost.** The implied cost to fulfill and ship an order is significantly higher in problem states.
+  - Just as we thought, the root cause of profit loss is not revenue (sales, discounts) but **cost.** **The implied cost to fulfill and ship an order is significantly higher in problem states.**
 
   - In profitable states, the order value outweighs the costs, which generates profit. However, in problem states, the costs outweigh the order value.
 
@@ -118,7 +118,7 @@ Note: Since the dataset lacks specific shipping cost data, we will calculate an 
 3. According to the data, the root cause strongly suggests a cost problem.
 4. The only logical cost variable that varies significantly by state is Shipping.
 
-- Re-evaluate shipping business model in order to fix profitability within the following states:
+- **Re-evaluate shipping business model in order to fix profitability within the following states:**
   - Arizona
   - Colorado
   - Florida
