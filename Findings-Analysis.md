@@ -106,7 +106,7 @@ Tableau - [Link](https://public.tableau.com/views/Workbook4_SuperStoreProject/Du
 
 **Findings:**
 
-Note: Since the dataset lacks specific shipping cost data, we will calculate an implied Cost Per Order (CPO) derived from sales, discounts, and profit. This metric will be expressed as the Average Implied Cost per Order, providing an accurate estimate of fulfillment expenses.
+Note: Since the dataset lacks specific shipping cost data, we will calculate an implied Cost Per Order (CPO) derived from sales, discounts, and profit. This metric will be expressed as the Average Implied Cost Per Order, providing an accurate estimate of fulfillment expenses.
 
   - Just as we thought, the root cause of profit loss is not revenue (sales, discounts) but cost. **The implied cost to fulfill and ship an order is significantly higher in underperforming states.**
 
