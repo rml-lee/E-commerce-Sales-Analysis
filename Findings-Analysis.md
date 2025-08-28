@@ -70,7 +70,7 @@ Tableau - [Link](https://public.tableau.com/views/Workbook4_SuperStoreProject/Sc
 
 **Recommendations:** 
 
-- **Investigate the average order value per state.** Orders with low sales value cannot absorb the fixed costs of fulfillment (e.g., picking, packing, shipping), leading to thin or negative margins, even without discounts.
+- **Investigate the average order value.** Orders with low sales value cannot absorb the fixed costs of fulfillment (e.g., picking, packing, shipping), leading to thin or negative margins, even without discounts.
 
 ---
 
