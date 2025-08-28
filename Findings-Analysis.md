@@ -34,7 +34,8 @@ Tableau - [Link](https://public.tableau.com/views/Workbook4_SuperStoreProject/Li
 Tableau - [Link](https://public.tableau.com/shared/SK8KNPF9H?:display_count=n&:origin=viz_share_link)
 
 
-<img width="4974" height="2414" alt="Map" src="https://github.com/user-attachments/assets/8167d8fc-ee41-4dca-8204-44fc37498817" />
+<img width="4974" height="2368" alt="Map" src="https://github.com/user-attachments/assets/10f86db6-ced7-4658-a256-6cbc7731db9a" />
+
 
 
 
@@ -59,7 +60,8 @@ Tableau - [Link](https://public.tableau.com/shared/SK8KNPF9H?:display_count=n&:o
 
 Tableau - [Link](https://public.tableau.com/views/Workbook4_SuperStoreProject/ScatterPlot2?:language=en-US&publish=yes&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
 
-<img width="4972" height="2368" alt="Scatter Plot 2" src="https://github.com/user-attachments/assets/63c8fd24-99d3-409e-99a5-2c1623c7f02e" />
+
+<img width="4972" height="2368" alt="Scatter Plot 2" src="https://github.com/user-attachments/assets/0299b823-f3ab-4120-a6bd-8e3890ed5074" />
 
 
 **Findings:**
@@ -80,7 +82,8 @@ Tableau - [Link](https://public.tableau.com/views/Workbook4_SuperStoreProject/Sc
 
 Tableau - [Link](https://public.tableau.com/shared/X4XRXD9QP?:display_count=n&:origin=viz_share_link)
 
-<img width="4972" height="2320" alt="Scatter Plot 3" src="https://github.com/user-attachments/assets/defcd02a-83b9-4f0a-80e9-5b972d652ac4" />
+
+<img width="4984" height="2368" alt="Scatter Plot 3" src="https://github.com/user-attachments/assets/420b9e85-2c97-4fd3-8c81-57379d0955da" />
 
 
 **Findings:**
