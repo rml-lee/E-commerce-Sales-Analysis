@@ -86,7 +86,7 @@ ORDER BY 1 ASC;
 
 
 
--- 6. What is the profit margin for each state per year? Are any states incurring a profit loss?
+-- 6. What is the yearly profit margin for each state per year? Are any states incurring a profit loss?
 SELECT
     YEAR(order_date) AS year,
     country,
@@ -99,7 +99,7 @@ ORDER BY 1 ASC;
 
 
 
--- 6.2 Root Cause Analysis: Let's compare the profit margin to the average discount rate in each state.
+-- 6.2 Root Cause Analysis: Let's compare the yearly profit margin to the average discount rate in each state.
 -- Do our promotion strategies significantly contribute to losses in low-performing states?
 SELECT
     YEAR(order_date) AS year,
@@ -114,12 +114,13 @@ ORDER BY 1 ASC, 4 ASC;
 
 
 
--- 6.3 Root Cause Analysis: Let's compare the profit margin to the average order value.
+-- 6.3 Root Cause Analysis: Let's compare the yearly profit margin to the average order value.
 -- Are our pricing strategies and order structure contributing to profitability issues?
 SELECT
     YEAR(order_date) AS year,
     country,
     state,
+    COUNT(*) AS amount_of_orders,
     ROUND(SUM(profit) / SUM(sales), 3) AS profit_margin,
     ROUND(SUM(sales) / COUNT(*), 2) AS avg_order_value
 FROM
@@ -129,7 +130,7 @@ ORDER BY 1 ASC;
 
 
 
--- 6.4 Root Cause Analysis: Let's compare the average order value with its fulfillment costs in each state.
+-- 6.4 Root Cause Analysis: Let's compare the yearly average order value with its fulfillment costs in each state.
 -- Are our fulfillment and shipping costs the primary driver of profitability issues in low-performing states?
 SELECT
     YEAR(order_date) AS year,
@@ -137,8 +138,8 @@ SELECT
     state,
     COUNT(*) AS amount_of_orders,
     ROUND(SUM(profit) / SUM(sales), 3) AS profit_margin,
-    ROUND((SUM(sales) - SUM(discount) - SUM(profit)) / COUNT(*), 2) AS avg_implied_cost_per_order,
-    ROUND(SUM(sales) / COUNT(*), 2) AS avg_order_value
+    ROUND(SUM(sales) / COUNT(*), 2) AS avg_order_value,
+    ROUND((SUM(sales) - SUM(discount) - SUM(profit)) / COUNT(*), 2) AS avg_implied_cost_per_order
 FROM
     sample_superstore
 GROUP BY 1, 2, 3
