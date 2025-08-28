@@ -100,7 +100,8 @@ Tableau - [Link](https://public.tableau.com/shared/X4XRXD9QP?:display_count=n&:o
 Tableau - [Link](https://public.tableau.com/views/Workbook4_SuperStoreProject/DualCombination?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
 
 
-<img width="4972" height="2320" alt="Dual Combination" src="https://github.com/user-attachments/assets/597d7e5b-03bf-432a-9879-cbf769721653" />
+<img width="4972" height="2320" alt="Dual Combination" src="https://github.com/user-attachments/assets/4c47001e-ef3d-4c19-af9b-f6dba8b71443" />
+
 
 
 
