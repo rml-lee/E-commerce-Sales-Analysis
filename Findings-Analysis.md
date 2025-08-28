@@ -29,7 +29,7 @@ Tableau - [Link](https://public.tableau.com/views/Workbook4_SuperStoreProject/Li
 
 ---
 
-## 6. What is the profit margin for each state? Are any states incurring a profit loss?
+## 6. What is the yearly profit margin for each state? Are any states incurring a profit loss?
 
 Tableau - [Link](https://public.tableau.com/shared/SK8KNPF9H?:display_count=n&:origin=viz_share_link)
 
@@ -55,7 +55,7 @@ Tableau - [Link](https://public.tableau.com/shared/SK8KNPF9H?:display_count=n&:o
 ---
 
 ## 6.2 - Diagnostic Analysis (Root Cause): Discount Rate
-## Let's compare the profit margin to the average discount rate in each state. 
+## Let's compare the yearly profit margin to the average discount rate in each state. 
 ## Do our promotion strategies significantly contribute to losses in low-performing states?
 
 Tableau - [Link](https://public.tableau.com/views/Workbook4_SuperStoreProject/ScatterPlot2?:language=en-US&publish=yes&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
@@ -77,7 +77,7 @@ Tableau - [Link](https://public.tableau.com/views/Workbook4_SuperStoreProject/Sc
 ---
 
 ## 6.3 - Diagnostic Analysis (Root Cause): Order Value
-## Let's compare the profit margin to the average order value. 
+## Let's compare the yearly profit margin to the average order value in each state. 
 ## Are our pricing strategies and order structure contributing to profitability issues?
 
 Tableau - [Link](https://public.tableau.com/shared/X4XRXD9QP?:display_count=n&:origin=viz_share_link)
@@ -97,7 +97,7 @@ Tableau - [Link](https://public.tableau.com/shared/X4XRXD9QP?:display_count=n&:o
 
 ---
 ## 6.4 - Diagnostic Analysis (Root Cause): Fulfillment Cost
-## Let's compare the average order value with it's fulfillment costs in each state.
+## Let's compare the yearly average order value with it's fulfillment costs in each state.
 ## Are our fulfillment and shipping costs the primary driver of profitability issues in low-performing states?
 
 Tableau - [Link](https://public.tableau.com/views/Workbook4_SuperStoreProject/DualCombination?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
