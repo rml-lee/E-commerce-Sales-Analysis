@@ -85,7 +85,7 @@ Tableau - [Link](https://public.tableau.com/shared/X4XRXD9QP?:display_count=n&:o
 
 **Findings:**
 
-- The Average Order Value (AOV) within problem states are roughly in the same range of profitable states year to year. **This is a very strong indication that AOV is NOT the main problem.** The most logical explanation, which fits our analysis so far, is excessively high shipping costs.
+- The Average Order Value (AOV) in underperforming states is roughly the same as in profitable states year over year. **This is a very strong indication that AOV is NOT the main problem.** The most logical explanation, which fits our analysis so far, is excessively high shipping costs.
 
 **Recommendations:** 
 
@@ -108,15 +108,15 @@ Tableau - [Link](https://public.tableau.com/views/Workbook4_SuperStoreProject/Du
 
 Note: Since the dataset lacks specific shipping cost data, we will calculate an implied Cost Per Order (CPO) derived from sales, discounts, and profit. This metric will be expressed as the Average Implied Cost per Order, providing an accurate estimate of fulfillment expenses.
 
-  - Just as we thought, the root cause of profit loss is not revenue (sales, discounts) but cost. **The implied cost to fulfill and ship an order is significantly higher in problem states.**
+  - Just as we thought, the root cause of profit loss is not revenue (sales, discounts) but cost. **The implied cost to fulfill and ship an order is significantly higher in underperforming states.**
 
-  - In profitable states, the order value outweighs the costs, which generates profit. However, in problem states, the costs outweigh the order value. The revenue from an average order is insufficient to cover the high costs of shipping and fulfillment, making every order a net loss.
+  - In profitable states, the order value outweighs the costs, which generates profit. However, in underperforming states, the costs outweigh the order value. The revenue from an average order is insufficient to cover the high costs of shipping and fulfillment, making every order a net loss.
 
 **Conclusion & Final Recommendation:** 
 
-1. Discounts are deeper in problem states but are not the root cause.
+1. Discounts are deeper in underperforming states but are not the root cause.
 2. AOV is similar across states, ruling out a revenue problem.
-3. There's a trend of order costs superceding the value of orders in problem states. 
+3. There's a trend of order costs superceding the value of orders in underperforming states. 
 4. The only logical cost variable that varies significantly by state is Shipping.
 
 - **Re-evaluate shipping business model in order to fix profitability within the following states:**
