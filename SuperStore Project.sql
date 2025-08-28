@@ -129,7 +129,7 @@ ORDER BY 1 ASC;
 
 
 
--- 6.4 Root Cause Analysis: Let's compare the profit margin to the costs per order in each state.
+-- 6.4 Root Cause Analysis: Let's compare the average order value with its fulfillment costs in each state.
 -- Are our fulfillment and shipping costs the primary driver of profitability issues in low-performing states?
 SELECT
     YEAR(order_date) AS year,
