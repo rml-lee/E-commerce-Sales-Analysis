@@ -114,7 +114,7 @@ Note: Since the dataset lacks specific shipping cost data, we will calculate an 
 
 **Conclusion & Final Recommendation:** 
 
-1. Discounts are deeper in underperforming states but are not the root cause.
+1. Discounts are higher in underperforming states but are not the root cause of profit loss.
 2. AOV is similar across states, ruling out a revenue problem.
 3. There's a trend of order costs superceding the value of orders in underperforming states. 
 4. The only logical cost variable that varies significantly by state is Shipping.
