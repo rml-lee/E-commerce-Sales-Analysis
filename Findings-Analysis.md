@@ -29,12 +29,13 @@ Tableau - [Link](https://public.tableau.com/views/Workbook4_SuperStoreProject/Li
 
 ---
 
-## 6. What is the profit margin for each state? Are any states incurring a profit loss?
+## 6. What is the yearly profit margin for each state? Are any states incurring a profit loss?
 
 Tableau - [Link](https://public.tableau.com/shared/SK8KNPF9H?:display_count=n&:origin=viz_share_link)
 
 
-<img width="4974" height="2414" alt="Map" src="https://github.com/user-attachments/assets/8167d8fc-ee41-4dca-8204-44fc37498817" />
+<img width="4974" height="2368" alt="Map" src="https://github.com/user-attachments/assets/ed7bd072-daa5-45a8-9ce8-ce7fd12d7a64" />
+
 
 
 
@@ -54,19 +55,20 @@ Tableau - [Link](https://public.tableau.com/shared/SK8KNPF9H?:display_count=n&:o
 ---
 
 ## 6.2 - Diagnostic Analysis (Root Cause): Discount Rate
-## Let's compare the profit margin to the average discount rate in each state. 
+## Let's compare the yearly profit margin to the average discount rate in each state. 
 ## Do our promotion strategies significantly contribute to losses in low-performing states?
 
 Tableau - [Link](https://public.tableau.com/views/Workbook4_SuperStoreProject/ScatterPlot2?:language=en-US&publish=yes&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
 
-<img width="4972" height="2368" alt="Scatter Plot 2" src="https://github.com/user-attachments/assets/63c8fd24-99d3-409e-99a5-2c1623c7f02e" />
+
+<img width="4972" height="2368" alt="Scatter Plot 2" src="https://github.com/user-attachments/assets/0299b823-f3ab-4120-a6bd-8e3890ed5074" />
 
 
 **Findings:**
 
 - Yes, the data shows a strong correlation between higher discount rates and negative profit margins, indicating that **discounts are a contributor to profit loss**. This relationship is clear when comparing states: those with low discount rates tend to be profitable, while those with high discount rates are consistently unprofitable.
 
-- Discount rates were actually lower in problem states in 2016, yet those states were still unprofitable. **This indicates that while discounts exacerbate the problem, they are not the root cause.** Reducing them lessens the loss but does not eliminate it.
+- Discount rates were actually lower in underperforming states in 2016, yet those states were still unprofitable. **This indicates that while discounts exacerbate the problem, they are not the root cause.** Reducing them lessens the loss but does not eliminate it.
 
 **Recommendations:** 
 
@@ -75,12 +77,13 @@ Tableau - [Link](https://public.tableau.com/views/Workbook4_SuperStoreProject/Sc
 ---
 
 ## 6.3 - Diagnostic Analysis (Root Cause): Order Value
-## Let's compare the profit margin to the average order value. 
+## Let's compare the yearly profit margin to the average order value in each state. 
 ## Are our pricing strategies and order structure contributing to profitability issues?
 
 Tableau - [Link](https://public.tableau.com/shared/X4XRXD9QP?:display_count=n&:origin=viz_share_link)
 
-<img width="4972" height="2320" alt="Scatter Plot 3" src="https://github.com/user-attachments/assets/defcd02a-83b9-4f0a-80e9-5b972d652ac4" />
+
+<img width="4984" height="2368" alt="Scatter Plot 3" src="https://github.com/user-attachments/assets/420b9e85-2c97-4fd3-8c81-57379d0955da" />
 
 
 **Findings:**
@@ -94,19 +97,20 @@ Tableau - [Link](https://public.tableau.com/shared/X4XRXD9QP?:display_count=n&:o
 
 ---
 ## 6.4 - Diagnostic Analysis (Root Cause): Fulfillment Cost
-## Let's compare the average order value with it's fulfillment costs in each state.
+## Let's compare the yearly average order value with it's fulfillment costs in each state.
 ## Are our fulfillment and shipping costs the primary driver of profitability issues in low-performing states?
 
 Tableau - [Link](https://public.tableau.com/views/Workbook4_SuperStoreProject/DualCombination?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
 
 
-<img width="4972" height="2320" alt="Dual Combination" src="https://github.com/user-attachments/assets/597d7e5b-03bf-432a-9879-cbf769721653" />
+<img width="4972" height="2320" alt="Dual Combination" src="https://github.com/user-attachments/assets/4c47001e-ef3d-4c19-af9b-f6dba8b71443" />
+
 
 
 
 **Findings:**
 
-Note: Since the dataset lacks specific shipping cost data, we will calculate an implied Cost Per Order (CPO) derived from sales, discounts, and profit. This metric will be expressed as the Average Implied Cost per Order, providing an accurate estimate of fulfillment expenses.
+Note: Since the dataset lacks specific shipping cost data, we will calculate an implied Cost Per Order (CPO) derived from sales, discounts, and profit. This metric will be expressed as the Average Implied Cost Per Order, providing an accurate estimate of fulfillment expenses.
 
   - Just as we thought, the root cause of profit loss is not revenue (sales, discounts) but cost. **The implied cost to fulfill and ship an order is significantly higher in underperforming states.**
 
