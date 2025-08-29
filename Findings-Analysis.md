@@ -83,7 +83,8 @@ Tableau - [Link](https://public.tableau.com/views/Workbook4_SuperStoreProject/Sc
 Tableau - [Link](https://public.tableau.com/shared/X4XRXD9QP?:display_count=n&:origin=viz_share_link)
 
 
-<img width="4984" height="2368" alt="Scatter Plot 3" src="https://github.com/user-attachments/assets/420b9e85-2c97-4fd3-8c81-57379d0955da" />
+<img width="4512" height="2414" alt="Scatter Plot 3" src="https://github.com/user-attachments/assets/a24416cf-2992-4f5d-9c2c-a8dc95d6a4ec" />
+
 
 
 **Findings:**
