@@ -122,7 +122,7 @@ Note: Since the dataset lacks specific shipping cost data, we will calculate an 
 1. Although discounts are higher in underperforming states, they are not the root cause of profit loss.
 2. AOV is similar across states, ruling out a revenue problem.
 3. There's a trend of order costs superceding the value of orders in underperforming states. 
-4. The only logical cost variable that varies significantly by state is Shipping.
+4. The only logical cost variable that varies significantly by state is **shipping**.
 
 - **Re-evaluate shipping business model in order to fix profitability within the following states:**
   - Arizona
